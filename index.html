@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseVOP - Живой комлекс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__block">
+                <div class="header__logo-box">
+                    <img src="images/header/logo.svg" alt="logo HouseVOP" class="logo-image">
+                    <span class="header__logo-title">ЖИЛОЙ КОМПЛЕКС</span>
+                </div>
+                <nav class="header__nav">
+                    <a href="#about-complex" class="header__nav-links">О комплексе</a>
+                    <a href="#district" class="header__nav-links">Район</a>
+                    <a href="#catalog" class="header__nav-links">Каталог квартир</a>
+                    <a href="#want-look" class="header__nav-links">Ипотека</a>
+                    <a href="#contacts" class="header__nav-links">Контакты</a>
+                </nav>
+            </div>
+            <div class="header__about-us">
+                <h1 class="header__title">Жилой комплекс<br>
+                    в историческом центре</h1>
+                <div class="header__mouse-icon-box">
+                    <img src="images/header/mouse-icon.svg" alt="mouse-icon" class="mouse-icon">
+                </div>
+                <div class="header__information-stand">
+                    <img src="images/header/placeholder-icon.svg" alt="placeholder-icon" class="placeholder-icon">
+                    <span class="header__text icon-text">Наб. реки Фонтанки 10-15</span>
+                    <img src="images/header/phone-icon.svg" alt="phone-icon" class="phone-icon">
+                    <span class="header__number icon-text">8 (812) 123-45-67</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about-complex" class="section-one">
+        <div class="section-one__inner">
+            <div class="testimonials">
+                <div class="testimonials__column">
+                    <img src="images/section-one/bench.svg" alt="bench" class="testimonials__image">
+                    <span class="testimonials__text">Рядом исторические<br>
+                    парки и скверы</span>
+                </div>
+                <div class="testimonials__column">
+                    <img src="images/section-one/building.svg" alt="building" class="testimonials__image">
+                    <span class="testimonials__text">Полностью<br>
+                        обустроенный</span>
+                </div>
+                <div class="testimonials__column">
+                    <img src="images/section-one/fountain.svg" alt="fountain" class="testimonials__image">
+                    <span class="testimonials__text">10 фонтанов<br>
+                        на территории</span>
+                </div>
+                <div class="testimonials__column">
+                    <img src="images/section-one/bicycle.svg" alt="bicycle" class="testimonials__image">
+                    <span class="testimonials__text">6 км<br>
+                        велодорожек</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="catalog" class="section-two">
+        <div class="section-two__inner">
+            <h2 class="section__title">Наши квартиры</h2>
+            <div class="section-two__appartments">
+                <div class="section-two__appartment three-floor">
+                    <h3 class="section-two__appartment-title">Лофт — 3 этажа</h3>
+                </div>
+                <div class="section-two__appartment three-floor">
+                    <h3 class="section-two__appartment-title">Лофт — 3 этажа</h3>
+                </div>
+                <div class="section-two__appartment two-floor">
+                    <h3 class="section-two__appartment-title">Лофт — 2 этажа</h3>
+                </div>
+                <div class="section-two__appartment two-floor">
+                    <h3 class="section-two__appartment-title">Лофт — 2 этажа</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="want-look" class="section-three">
+        <div class="section-three__inner">
+            <h2 class="section__title">Хотите посмотреть?</h2>
+            <div class="section-three__content">
+                <p class="section-three__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов<br> на латинице с начала XVI века. В то время некий безымянный<br> печатник создал большую коллекцию размеров и форм шрифтов,<br> используя Lorem Ipsum для распечатки образцов.</p>
+                <form class="section-three__form" action="#" method="get">
+                    <input class="input" type="text" name="username" value="" placeholder="Ваше имя">
+                    <input class="input" type="tel"
+                name="usernumber" value="" placeholder="Ваш телефон">
+                    <div class="user-notification-box">
+                        <span class="user-notification">
+                        *Мы никому не передаем ваши данные.<br>
+                        И не сохраняем ваш номер в базу.
+                        </span>
+                    </div>
+                    <button type="submit" class="button">Посмотреть район</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="section-four">
+        <div class="section-four__inner">
+            <div class="section-four__container">
+                <video class="section-four__video" src="video/Длинное видео....mp4"></video>
+                <div class="controls">
+                    <div class="orange-bar">
+                        <div class="orange-juice"></div>
+                    </div>
+                    <div class="buttons">
+                        <button
+                        class="btn" id="play-pause"></button>
+                    <div class="volume-box">
+                        <button class="mute" id="mute"></button>
+                        <button class="btn2" id="volinc"></button>
+                        <button class="btn3" id="voldec"></button>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="district" class="section-five">
+        <div class="section-five__inner">
+            <h2 class="section__title">Район на карте</h2>
+            <iframe class="section-five__google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.9917542968437!2d37.56478946200892!3d55.745206685262254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf43892b855241d!2z0JzQvtGB0LrQstCwINGB0LjRgtC4!5e0!3m2!1sru!2skz!4v1605299964710!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <section class="section-six">
+        <div class="section-six__inner">
+            <h2 class="section__title">Есть вопросы?</h2>
+            <form class="section-six__form" action="#" method="get">
+                <div class="user-notification-box">
+                    <span class="user-notification">
+                    *Мы никому не передаем ваши данные.<br>
+                    И не сохраняем ваш номер в базу.
+                    </span>
+                </div>
+                <input class="input" type="text" name="username" value="" placeholder="Ваше имя">
+                <input class="input" type="tel"
+            name="usernumber" value="" placeholder="Ваш телефон">
+                <button type="submit" class="button">Посмотреть район</button>
+            </form>
+        </div>
+    </section>
+    <footer id="contacts" class="footer">
+        <div class="footer__inner">
+            <div class="header__logo-box">
+                <img src="images/header/logo.svg" alt="logo HouseVOP" class="logo-image">
+                <span class="header__logo-title">ЖИЛОЙ КОМПЛЕКС</span>
+            </div>
+            <nav class="footer__nav">
+                <a href="#about-complex" class="header__nav-links footer__nav-links">О комплексе</a>
+                <a href="#district" class="header__nav-links footer__nav-links">Район</a>
+                <a href="#catalog" class="header__nav-links footer__nav-links">Каталог квартир</a>
+                <a href="#want-look" class="header__nav-links footer__nav-links">Ипотека</a>
+                <a href="#contacts" class="header__nav-links footer__nav-links">Контакты</a>
+            </nav>
+            <nav class="footer__nav">
+                <a href="#about-complex" class="header__nav-links footer__nav-links">О комплексе</a>
+                <a href="#district" class="header__nav-links footer__nav-links">Район</a>
+                <a href="#catalog" class="header__nav-links footer__nav-links">Каталог квартир</a>
+                <a href="#want-look" class="header__nav-links footer__nav-links">Ипотека</a>
+                <a href="#contacts" class="header__nav-links footer__nav-links">Контакты</a>
+            </nav>
+            <div class="footer__information-menu">
+                <span class="footer__information-text">Адрес: Наб. реки Фонтанки 10-15</span>
+                <span class="footer__information-text">Телефон: 8 (812) 123-45-67</span>
+                <span class="footer__information-text">Отдел продаж: 10:00 - 20:00</span>
+                <span class="footer__information-text">E-mail: <a class="footer__mail-link" href="#">vip@housevip.ru</a></span>
+                <div class="footer-social-links">
+                    <img class="footer__social-logo" src="images/footer/youtube-icon.svg" alt="youtube-icon">
+                    <img class="footer__social-logo" src="images/footer/vk-icon.svg" alt="vk-icon">
+                    <img class="footer__social-logo" src="images/footer/facebook-icon.svg" alt="facebook-icon">
+                    <img class="footer__social-logo" src="images/footer/instagram-icon.svg" alt="instagram-icon">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="video.js"></script>
+    
+</body>
+</html>
